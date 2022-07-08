@@ -21,7 +21,8 @@ import lombok.Setter;
 
 
 @Entity
-@Table(name="pgamentos")
+//adiciona o nome de como sera a tabela se nao tiver esta anotaçao ele simplismente pega o nome da classe
+@Table(name="pagamentos")
 @Getter
 @Setter
 @AllArgsConstructor
